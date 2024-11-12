@@ -24,7 +24,7 @@ Atualmente, trabalho com .NET e Angular, mas nos meus projetos pessoais, gosto d
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/Andre-Quintela" title="Perfil de André Quintela">
+      <a href="https://www.linkedin.com/in/andre-quintela/" title="Perfil de André Quintela">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQFcLJGIkvQkwA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722270168067?e=1735171200&v=beta&t=XaLYC0USBXWDLsxO5mqIkQo6NKJA1BMWNigUv1UaNBs" width="100px;" alt="Foto de André no LinkedIn"/><br>
         <sub><b>André Quintela</b></sub><br>
         <a>andre.lsquintela@gmail.com</a>
