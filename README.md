@@ -29,8 +29,8 @@ Atualmente, trabalho com .NET e Angular, mas nos meus projetos pessoais, gosto d
         <sub><b>André Quintela</b></sub>
       </a>
     </td>
-</table>
 - andre.lsquintela@gmail.com
+</table>
 
 ---
 
