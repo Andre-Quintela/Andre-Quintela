@@ -82,12 +82,12 @@ Desenvolvedor Full Stack apaixonado por resolver problemas reais com tecnologia.
 
 | Projeto | Descrição | Tecnologias |
 |:-------:|:---------:|:-----------:|
-| [🏥 HealthSync](https://github.com/Andre-Quintela/healthsync-back) | Plataforma de saúde — back-end RESTful + front-end completo | `C#` `.NET` `JavaScript` |
+| [🏥 HealthSync](https://github.com/Andre-Quintela/healthsync-back) | Plataforma de saúde — back-end RESTful + front-end completo | `APS.NET e React` |
 | [🤖 CNN Capacetes](https://github.com/Andre-Quintela/CNN-Motoqueiros-sem-capacetes) | Detecção de motociclistas sem capacete com Redes Neurais Convolucionais | `Python` `TensorFlow` `Computer Vision` |
 | [🍽️ Food Classification](https://github.com/Andre-Quintela/Food-Classification) | Classificador de tipos de pratos usando Deep Learning | `Python` `Jupyter` `CNN` |
 | [💬 NLP Sentimentos](https://github.com/Andre-Quintela/NLP-ANALISE-DE-SENTIMENTOS) | Análise de sentimentos com Processamento de Linguagem Natural | `Python` `NLP` `ML` |
 | [🏠 House Prices Hackathon](https://github.com/Andre-Quintela/House-Prices---Machine-Learning-Hackathon) | Previsão de preços de imóveis — projeto de hackathon de ML | `Python` `scikit-learn` |
-| [🐜 Ant Optimization](https://github.com/Andre-Quintela/AntOptimization) | Implementação do algoritmo de Otimização por Colônia de Formigas | `TypeScript` |
+| [🐜 Ant Optimization](https://github.com/Andre-Quintela/AntOptimization) | Implementação do algoritmo de Otimização por Colônia de Formigas | `ASP.NET e Angular` |
 
 </div>
 
