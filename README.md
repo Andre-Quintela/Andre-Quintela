@@ -108,7 +108,6 @@ Desenvolvedor Full Stack apaixonado por resolver problemas reais com tecnologia.
 🔹 Inteligência Artificial & Machine Learning
 🔹 Computer Vision & Processamento de Imagens
 🔹 Algoritmos & Otimização
-🔹 Desenvolvimento Mobile (React Native)
 ```
 
 ---
