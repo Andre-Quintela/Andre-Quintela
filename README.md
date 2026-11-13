@@ -27,12 +27,9 @@
 
 ```mermaid
 flowchart LR
-    C([Cliente]) --> G[Geração]
-    D([Documentos]) -- fila --> I[Ingestão<br/>trechos + embeddings]
-    G -- REST --> R[Recuperação<br/>cosseno + reranking]
-    R -- REST --> I
-    G --> CB{{retry · circuit breaker · timeout}}
-    CB --> L[(LLM)]
+    I["1 · Ingestão<br/>fila → trechos → embeddings"] --> R["2 · Recuperação<br/>cosseno → reranking"]
+    R --> G["3 · Geração<br/>prompt com fontes"]
+    G --> L[("LLM<br/>retry · circuit breaker · timeout")]
 ```
 
 | Problema | Decisão |
@@ -46,10 +43,6 @@ flowchart LR
 
 ## As duas frentes da engenharia de IA
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### Engenharia de software com foco em IA
 
 | Projeto | O que mostra |
@@ -57,9 +50,6 @@ flowchart LR
 | [**Letters**](https://github.com/Andre-Quintela/Letters) | LLM integrado a um produto web em produção (.NET 8, Angular, Azure OpenAI, Azure SQL) |
 | [**RAG Distribuído**](https://github.com/Andre-Quintela/C2-Howard) | Resiliência em volta do LLM em microsserviços |
 | [**Inferência Distribuída**](https://github.com/Andre-Quintela/sd-2026-2-kit-c1a2) | Modelo servido por REST **e** gRPC, com fila Redis e workers |
-
-</td>
-<td width="50%" valign="top">
 
 ### Engenharia de IA e Machine Learning
 
@@ -70,10 +60,6 @@ flowchart LR
 | [**Recomendador de Restaurantes**](https://github.com/Andre-Quintela/Recomendador-De-Restaurantes) | Recomendação híbrida: conteúdo + SVD |
 | [**Detecção de Capacete**](https://github.com/Andre-Quintela/CNN-Motoqueiros-sem-capacetes) | CNN para visão computacional |
 | [**House Prices**](https://github.com/Andre-Quintela/House-Prices---Machine-Learning-Hackathon) | Competição do Kaggle de ponta a ponta |
-
-</td>
-</tr>
-</table>
 
 ### IA no universo da comida
 
